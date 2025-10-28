@@ -1,3 +1,28 @@
+# Ignore Python virtual environments
+venv/
+*/venv/
+octofit-tracker/backend/venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Env files
+.env
+.env.*
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
 .DS_Store
 
 # Virtual Environment
